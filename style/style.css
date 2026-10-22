@@ -1,0 +1,22 @@
+body {font: 12px verdana, sans-serif; }
+#container {width: 1000px; font-size: 90%; margin: 0 auto; }
+
+#header, #sidebar, #page, #footer {border: 1px dashed #00f; box-sizing: border-box;}
+#sidebar, #page, #footer {margin-top: 10px;}
+#header, #sidebar, #footer {background: #9cf;}
+
+#header {height: 95px; padding: 10px;}
+#sidebar {width: 150px; float: left;}
+#page {width: 840px; float: left; margin-left: 10px; padding: 10px;}
+#clear {clear: both;}
+#footer {text-align: center;}
+
+h1, h2, h3 {font-family: 'trebuchet ms', sans-serif;}
+#header h1 {color: #039; padding: 10px; }
+#page h2 {color: #930;}
+#sidebar h3 {padding: 10px}
+
+#navmenu {margin: 0; padding: 0; list-style:none;}
+#navmenu li {margin-bottom: 5px;}
+#navmenu a {display: block; background: #036; color: #ec1; padding: 5px; text-decoration:none; }
+#navmenu a:hover {background: #333; color: #fff}
